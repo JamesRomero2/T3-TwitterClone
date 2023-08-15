@@ -24,6 +24,10 @@ const config = {
       },
     ],
     "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
+    "@typescript-eslint/no-unsafe-members-access": "off",
+    "@typescript-eslint/no-unsafe-arguments": "off",
+    "@typescript-eslint/no-unsafe-assignment": "off",
+    "@typescript-eslint/restrict-plus-operands": "off",
   },
 };
 
